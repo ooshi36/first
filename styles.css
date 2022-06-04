@@ -1,0 +1,74 @@
+@font-face {
+	font-family: 'RobotoCondensed-Regular';
+	src: url(../сайт/Roboto/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+	font-family: 'RobotoCondensed-LightItalic';
+	src: url(../сайт/Roboto/RobotoCondensed-LightItalic.ttf);
+}
+body {
+	margin: 0;
+	font-family: 'RobotoCondensed-LightItalic', sans-serif;
+  }
+  
+  .link {
+	color: chocolate;
+	transition: color .2s;
+  }
+  
+  .header {
+	padding: 5px;
+	border-top: 5px solid red;
+	border-bottom: 5px solid red;
+	text-align: center;
+  }
+  
+  .header-link {
+	margin: 5 10px;
+	text-align: center;	
+  }
+  
+  .main {
+	display: flex;
+	margin: 0 auto;
+	grid-template-columns: auto auto;
+	
+  }
+  
+  .img-wrapper {
+	background-color: #dbacac;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .img {
+	border: 1px solid gray;
+  }
+  
+  .title {
+	color: gray;
+	text-align: center;
+	font-family: 'RobotoCondensed-Regular', serif;
+  }
+  
+  .subtitle {
+	border-left: 5px solid #05c4259c;
+	padding-left: 15px;
+	color: grey;
+	margin-top: 30px;
+  }
+  
+  .footer {
+	border-top: 1px solid gray;
+	padding: 10px;
+	text-align: center;
+	color: gray;
+  }
+  .aside {
+	width: 320px;
+	flex: 0;
+  }
+  .section {
+	flex-grow: 1;
+	padding-left: 50px;
+  }
